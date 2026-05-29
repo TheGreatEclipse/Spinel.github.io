@@ -16,6 +16,7 @@ import mdAutoSpacing from "markdown-it-autospace";
 import locale from "./locale/index.mjs";
 
 export default defineConfig({
+  base: '/Spinel.github.io/',
   title: "Spinel",
   description: "Spinel Documentation",
   sitemap: {
